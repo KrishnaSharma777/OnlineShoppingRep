@@ -1,0 +1,52 @@
+.HomePage-Container {
+  height: 100%;
+  width: 100%;
+}
+.HomePage-Container .HomePage-SubContainer {
+  height: 100%;
+  width: 100%;
+}
+.HomePage-Container .HomePage-SubContainer .HomePage-SubContainer-Header {
+  height: 8%;
+  background-color: white;
+}
+.HomePage-Container .HomePage-SubContainer .HomePage-SubContainer-Body {
+  height: 84%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: white;
+}
+.HomePage-Container .HomePage-SubContainer .HomePage-SubContainer-Body .HomePage-SubContainer-Body-SubBody1 {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HomePage-Container .HomePage-SubContainer .HomePage-SubContainer-Body .HomePage-SubContainer-Body-SubBody2 {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HomePage-Container .HomePage-SubContainer .HomePage-SubContainer-Body .HomePage-SubContainer-Body-SubBody2 .MuiPaginationItem-outlinedSecondary.Mui-selected {
+  background-color: white;
+  color: red;
+  border: 1px solid white;
+}
+.HomePage-Container .HomePage-SubContainer .HomePage-SubContainer-Footer {
+  height: 8%;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #35d5fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: "Roboto";
+}
